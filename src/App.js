@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
+
 import './App.css';
 
 function App() {
