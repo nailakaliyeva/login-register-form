@@ -1,14 +1,13 @@
-import { PrismaClient } from '@prisma/client'
-import './App.css';
+//import { PrismaClient } from '@prisma/client'
 
-const prisma = new PrismaClient()
+import Register from './Register';
+
+//const prisma = new PrismaClient()
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello
-          
-      </h1>
+      <Register />
     </div>
   );
 }
