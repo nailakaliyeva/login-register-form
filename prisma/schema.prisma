@@ -8,10 +8,10 @@ datasource db {
 }
 
 model user {
-  id          Int     @id
-  name        String?
-  username    String?
-  email       String?
-  password    String?
-  profile_pic String?
+  id          Int    @id
+  name        String
+  username    String
+  email       String
+  password    String
+  profile_pic String
 }
