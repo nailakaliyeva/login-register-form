@@ -1,7 +1,7 @@
 import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
-
 import './App.css';
+
+const prisma = new PrismaClient()
 
 function App() {
   return (
